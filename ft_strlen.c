@@ -6,13 +6,13 @@
 /*   By: ayouikan <ayouikan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 15:05:42 by username          #+#    #+#             */
-/*   Updated: 2026/10/25 09:43:59 by ayouikan         ###   ########.fr       */
+/*   Updated: 2026/10/25 13:19:51 by ayouikan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
 	size_t	i;
 
