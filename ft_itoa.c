@@ -6,13 +6,13 @@
 /*   By: ayouikan <ayouikan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 18:08:52 by username          #+#    #+#             */
-/*   Updated: 2026/10/22 11:36:48 by ayouikan         ###   ########.fr       */
+/*   Updated: 2026/10/26 13:29:02 by ayouikan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_numlen(long n)
+static int	ft_numlen(long n)
 {
 	int	len;
 
@@ -27,7 +27,7 @@ int	ft_numlen(long n)
 	return (len);
 }
 
-void	ft_fill(char *str, long n, int len)
+static void	ft_fill(char *str, long n, int len)
 {
 	int	i;
 

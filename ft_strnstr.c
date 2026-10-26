@@ -6,11 +6,9 @@
 /*   By: ayouikan <ayouikan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 11:57:35 by username          #+#    #+#             */
-/*   Updated: 2026/10/15 11:34:09 by ayouikan         ###   ########.fr       */
+/*   Updated: 2026/10/26 13:30:15 by ayouikan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 #include "libft.h"
 

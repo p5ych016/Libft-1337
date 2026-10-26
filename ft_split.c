@@ -6,13 +6,13 @@
 /*   By: ayouikan <ayouikan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 09:17:21 by username          #+#    #+#             */
-/*   Updated: 2026/10/22 11:37:49 by ayouikan         ###   ########.fr       */
+/*   Updated: 2026/10/26 13:29:47 by ayouikan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_word_count(char const *s, char c)
+static int	ft_word_count(char const *s, char c)
 {
 	int	i;
 	int	count;
