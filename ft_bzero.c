@@ -6,7 +6,7 @@
 /*   By: ayouikan <ayouikan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 14:56:02 by ayouikan          #+#    #+#             */
-/*   Updated: 2026/10/13 14:58:24 by ayouikan         ###   ########.fr       */
+/*   Updated: 2026/10/27 17:31:25 by ayouikan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,5 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	unsigned char	*str;
-	size_t			i;
-
-	i = 0;
-	str = (unsigned char *)s;
-	while (i < n)
-	{
-		str[i] = 0;
-		i++;
-	}
+	ft_memset(s, 0, n);
 }

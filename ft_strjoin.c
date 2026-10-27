@@ -6,7 +6,7 @@
 /*   By: ayouikan <ayouikan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 09:02:06 by ayouikan          #+#    #+#             */
-/*   Updated: 2026/10/16 10:25:04 by ayouikan         ###   ########.fr       */
+/*   Updated: 2026/10/27 17:40:27 by ayouikan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	size_t	len1;
 	size_t	len2;
 
+	if (!s1 || !s2)
+		return (NULL);
 	len1 = ft_strlen(s1);
 	len2 = ft_strlen(s2);
 	join = malloc(len1 + len2 + 1);

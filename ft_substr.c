@@ -6,7 +6,7 @@
 /*   By: ayouikan <ayouikan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 20:25:43 by ayouikan          #+#    #+#             */
-/*   Updated: 2026/10/15 08:48:30 by ayouikan         ###   ########.fr       */
+/*   Updated: 2026/10/27 17:40:59 by ayouikan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	size_t			sub_len;
 	char			*sub;
 
+	if (!s)
+		return (NULL);
 	i = 0;
 	s_len = ft_strlen(s);
 	if (start > s_len)
