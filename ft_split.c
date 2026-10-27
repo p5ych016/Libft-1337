@@ -6,7 +6,7 @@
 /*   By: ayouikan <ayouikan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 09:17:21 by username          #+#    #+#             */
-/*   Updated: 2026/10/26 13:29:47 by ayouikan         ###   ########.fr       */
+/*   Updated: 2026/10/27 13:01:04 by ayouikan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static int	ft_word_count(char const *s, char c)
 	return (count);
 }
 
-char	*copy_words(char const *str, char c)
+static char	*copy_words(char const *str, char c)
 {
 	int		len;
 	char	*word;
@@ -52,7 +52,7 @@ char	*copy_words(char const *str, char c)
 	return (word);
 }
 
-void	free_split(char **split, int j)
+static void	free_split(char **split, int j)
 {
 	while (j > 0)
 		free(split[--j]);
